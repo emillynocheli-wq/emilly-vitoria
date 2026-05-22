@@ -1,1 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo Rural no Paraná</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Turismo Rural no Paraná</h1>
+        <nav>
+            <ul>
+                <li><a href="#fazendas">Fazendas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <main>
+        <section id="intro">
+            <h2>Explore Experiências Rurais</h2>
+            <p>Descubra fazendas turísticas no Paraná e viva experiências únicas na natureza!</p>
+        </section>
+
+        <section id="fazendas">
+            <h2>Fazendas Disponíveis</h2>
+            <div class="cards-container" id="cards-container">
+                <!-- Cards das fazendas serão inseridos pelo JavaScript -->
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <input type="text" id="nome" placeholder="Seu nome" required>
+                <input type="email" id="email" placeholder="Seu email" required>
+                <textarea id="mensagem" placeholder="Sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="form-feedback"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Turismo Rural Paraná</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
