@@ -3,17 +3,17 @@ const fazendas = [
     {
         nome: "Fazenda Bela Vista",
         descricao: "Experiência de colheita de frutas e passeios a cavalo.",
-        imagem: "https://source.unsplash.com/250x150/?farm,countryside"
+        imagem: "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=500&auto=format&fit=crop&q=60"
     },
     {
         nome: "Sítio Verde",
         descricao: "Aprenda sobre produção orgânica e culinária rural.",
-        imagem: "https://source.unsplash.com/250x150/?organic,farm"
+        imagem: "https://images.unsplash.com/photo-1595855759920-86582396756a?w=500&auto=format&fit=crop&q=60"
     },
     {
         nome: "Fazenda do Lago",
         descricao: "Passeios de barco, pesca e contato com a natureza.",
-        imagem: "https://source.unsplash.com/250x150/?lake,farm"
+        imagem: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=500&auto=format&fit=crop&q=60"
     }
 ];
 
